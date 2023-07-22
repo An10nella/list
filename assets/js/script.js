@@ -17,10 +17,10 @@ const fighters = [
     "🦁",
   ]
 
-  function test(){
-    for(let i = 0; i<fighters.length; i+3)
-     console.log(fighters[i])
-  }
+  // function test(){
+  //   for(let i = 0; i<fighters.length; i+3)
+  //    console.log(fighters[i])
+  // }
 
   console.log(fighters[3])
   let stageEl = document.getElementById("stage")
