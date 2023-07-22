@@ -35,34 +35,34 @@ const fighters = [
     // stageEl.textContent = fighters[char01] +  "VS" + fighters[char02]
     stageEl.innerHTML = `${fighters[char01]} VS ${fighters[char02]}`
 
-    // console.log(char01)
-    // console.log(fighters[3])
-    // console.log(fighters[char01])
-    // console.log(fighters[char02])
+    console.log(char01)
+    console.log(fighters[3])
+    console.log(fighters[char01])
+    console.log(fighters[char02])
 
     // fightButtonEl.style.backgroundColor="#fff"
-    if(fighters[3] == fighters[char01] || fighters[3] == fighters[char02]){
-      stageEl.innerHTML += `<br> ${fighters[3]} is the winner`
-    }else{
-      if(char01 > char02){
-        diff = char01 - char02
-        stageEl.innerHTML += `<br> ${fighters[char01]} win by ${diff} points`
-        if(diff>9){
-          fightButtonEl.style.backgroundColor="#ff5"
-        }else{
-          fightButtonEl.style.backgroundColor="#fff"
-        }
-      }else if(char01 < char02){
-        diff = char02 - char01
-        stageEl.innerHTML += `<br> ${fighters[char02]} win by ${diff} points`
-        if(diff>9){
-          fightButtonEl.style.backgroundColor="#ff5"
-        }else{
-          fightButtonEl.style.backgroundColor="#fff"
-        }
-      }else{
-        stageEl.innerHTML += `<br> Tie Game`
-        fightButtonEl.style.backgroundColor="#f0f"
-      }
-    }
+    // if(fighters[3] == fighters[char01] || fighters[3] == fighters[char02]){
+    //   stageEl.innerHTML += `<br> ${fighters[3]} is the winner`
+    // }else{
+    //   if(char01 > char02){
+    //     diff = char01 - char02
+    //     stageEl.innerHTML += `<br> ${fighters[char01]} win by ${diff} points`
+    //     if(diff>9){
+    //       fightButtonEl.style.backgroundColor="#ff5"
+    //     }else{
+    //       fightButtonEl.style.backgroundColor="#fff"
+    //     }
+    //   }else if(char01 < char02){
+    //     diff = char02 - char01
+    //     stageEl.innerHTML += `<br> ${fighters[char02]} win by ${diff} points`
+    //     if(diff>9){
+    //       fightButtonEl.style.backgroundColor="#ff5"
+    //     }else{
+    //       fightButtonEl.style.backgroundColor="#fff"
+    //     }
+    //   }else{
+    //     stageEl.innerHTML += `<br> Tie Game`
+    //     fightButtonEl.style.backgroundColor="#f0f"
+    //   }
+    // }
 })
