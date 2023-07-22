@@ -22,7 +22,7 @@ const fighters = [
   //    console.log(fighters[i])
   // }
 
-  console.log(fighters[3])
+  console.log(fighters[3]
   let stageEl = document.getElementById("stage")
   let fightButtonEl = document.getElementById("fightButton")
 
